@@ -1,0 +1,13 @@
+# juneMAD6135
+
+//let's pass in parameters for start, stop and step values
+function a(start, stop, stepvalue){
+    let sum=0;
+for (i = start; i < stop; i++) {
+  console.log("Hello!!" + i);
+  sum = sum + stepvalue;
+
+}
+return sum;
+}
+ console.log("sum is", a(1000,10,-17));
